@@ -19,5 +19,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK179288/
 OR do the following commands (these are the ones that appear on their page):
 
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+
 echo "export PATH=\$PATH:\$HOME/edirect" >> $HOME/.bash_profile
+
 export PATH=${PATH}:$HOME/edirect
